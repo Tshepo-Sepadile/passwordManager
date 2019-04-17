@@ -4,7 +4,7 @@ import ac.za.cput.domain.FourthPerson;
 
 public class FourthPersonFactory
 {
-    private static FourthPerson getFourthPerson(String name, String surname) {
+    public static FourthPerson getFourthPerson(String name, String surname) {
         if((name == "Henry") && (surname == "Keown")){
             return new FourthPerson();
         }
